@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bq_init
+    database: linen-sunbeam-368317
+    schema: 5r_project
+    tables:
+      - name: ga_campaigns
+        identifier: by_campaigns
+      - name: fb_ads
+        identifier: facebook_ads
