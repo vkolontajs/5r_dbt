@@ -28,7 +28,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 models:
-  my_project:
-      database: linen-sunbeam-368317
-      schema: dbt_views
+  my_new_project:
+    base:
+      materialized: view
+      schema: base
+    staging:
       materialized: table
+      schema: marts
+    marts:
+      materialized: table
+      schema: marts
