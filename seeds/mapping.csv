@@ -1,0 +1,148 @@
+source,campaign_name,campaing_channel,product
+facebook,03.10.-30.10.-smm-traf-ergo-creo,smm_traf,ergo
+facebook,smm-prosp,smm_pros,
+facebook,smm-dyn,smm_dyn,
+facebook,21.10.-26.10.-smm-prodv-retarget-blanket,smm_prod,
+facebook,31.10.-27.10.-smm-traf-ergo-video,smm_traf,ergo
+facebook,31.10.-27.11.-smm-conv-items-carousel,smm_conv,
+facebook,16.11.-22.11.-smm-prodv-vovl-mass,smm_prodv,
+facebook,05.09.-02.10.-smm-conv-items-carousel,smm_conv,
+facebook,09.11.-15.11.-smm-prodv-vovl-post,smm_prodv,
+facebook,21.10.-27.10.-smm-prodv-vovl-story,smm_prodv,
+facebook,31.10.-27.11.-smm-traf-massage-video,smm_traf,massage
+facebook,22.11.-28.11.-smm-prodv-vovl-story,smm_prodv,
+facebook,13.10.-16.10.-smm-prodv-vovl-reels,smm_prodv,
+facebook,09.11.-15.11.-smm-prodv-retarget-post,smm_prodv_retarget,
+facebook,04.10.-30.10.-smm-traf-massage-carousel,smm_traf,massage
+facebook,03.10.-30.10.-smm-conv-items-carousel,smm_conv,
+facebook,13.10.-16.10.-smm-prodv-retarget-reels,smm_prodv,
+facebook,21.10.-27.10.-smm-prodv-vovl-blanket,smm_prodv,
+facebook,31.10.-27.11.-smm-ohvat-items-video,smm_ohvat,
+facebook,16.11.-22.11.-smm-prodv-retarget-mass,smm_prodv,
+facebook,05.09.-02.10.-smm-traf-items-creo,smm_traf,
+facebook,03.11.-08.11.-smm-prodv-retarget-mattress,smm_prodv,
+facebook,03.11.-08.11.-smm-prodv-vovl-mattress,smm_prodv,
+google,з будь-якими витратами,,
+google,youtube: rtg: ru: >15 sec,youtube_rtg,
+google,youtube: rtg: lv: >15 sec,youtube_rtg,
+google,youtube: conv: ru: (mobile),youtube_brand,
+google,youtube: conv: ru: (desktop),youtube_brand,
+google,youtube: conv: ru:,youtube_brand,
+google,youtube: conv: lv: (mobile),youtube_brand,
+google,youtube: conv: lv:,youtube_brand,
+google,youtube: brand: tv: lv,youtube_brand,
+google,smm-prosp-content_view,smm_prosp,
+google,smm-prosp,smm_prosp,
+google,smm-dyn,smm_dyn,
+google,perf: offline: all lang,google_perf,
+google,perf: conv: sales: all lang (B - Test),google_perf,
+google,perf: conv: sales: all lang (A - Test),google_perf,
+google,perf: conv: sales: all lang,google_perf,
+google,perf: conv: only mattress,google_perf,
+google,new: g search: toppers (ru) (high price) - mobile,google_search,toppers
+google,new: g search: toppers (ru) (high price) - desktop,google_search,toppers
+google,new: g search: toppers (lv) (high price) - mobile,google_search,toppers
+google,new: g search: toppers (lv) (high price) - desktop,google_search,toppers
+google,new: g search: sofas (ru) (high price) - mobile,google_search,sofas
+google,new: g search: sofas (ru) (high price) - desktop,google_search,sofas
+google,new: g search: sofas (lv) high prices - mobile,google_search,sofas
+google,new: g search: sofas (lv) high prices - desktop,google_search,sofas
+google,new: g search: protective covers (ru) - mobile,google_search,protective_covers
+google,new: g search: protective covers (ru) - desktop,google_search,protective_covers
+google,new: g search: protective covers (lv) - mobile,google_search,protective_covers
+google,new: g search: protective covers (lv) - desktop,google_search,protective_covers
+google,new: g search: pillows and duvets (lv) - mobile,google_search,pillows_and_duvets
+google,new: g search: pillows and duvets (lv) - desktop,google_search,pillows_and_duvets
+google,new: g search: pillows (ru) (high price) - mobile,google_search,pillows
+google,new: g search: pillows (ru) (high price) - desktop,google_search,pillows
+google,new: g search: pillows (lv) (high price) - mobile,google_search,pillows
+google,new: g search: pillows (lv) (high price) - desktop,google_search,pillows
+google,new: g search: mattresses широкое (ru) - mobile,google_search,mattresses_long
+google,new: g search: mattresses широкое (ru) - desktop,google_search,mattresses_long
+google,new: g search: mattresses широкое (lv) - mobile,google_search,mattresses_long
+google,new: g search: mattresses широкое (lv) - desktop,google_search,mattresses_long
+google,new: g search: mattresses (ru) (high price) - mobile,google_search,mattresses_short
+google,new: g search: mattresses (ru) (high price) - desktop,google_search,mattresses_short
+google,new: g search: mattresses (lv) (high price) - mobile,google_search,mattresses_short
+google,new: g search: mattresses (lv) (high price) - desktop,google_search,mattresses_short
+google,new: g search: massage devices (ru) - mobile,google_search,massage_devices
+google,new: g search: massage devices (ru) - desktop,google_search,massage_devices
+google,new: g search: massage devices (lv) - mobile,google_search,massage_devices
+google,new: g search: massage devices (lv) - desktop,google_search,massage_devices
+google,new: g search: linen: Постельное бельё (RU) NEW - mobile,google_search,
+google,new: g search: linen: Постельное бельё (RU) NEW - desktop,google_search,
+google,new: g search: linen: Постельное бельё (LV) - mobile,google_search,
+google,new: g search: linen: Постельное бельё (LV) - desktop,google_search,
+google,new: g search: ergo (ru) - mobile,google_search,
+google,new: g search: ergo (ru) - desktop,google_search,
+google,new: g search: ergo (lv) - mobile,google_search,
+google,new: g search: ergo (lv) - desktop,google_search,
+google,new: g search: blankets (ru) high price - mobile,google_search,
+google,new: g search: blankets (ru) high price - desktop,google_search,
+google,new: g search: blankets (lv) high price - mobile,google_search,
+google,new: g search: blankets (lv) high price - desktop,google_search,
+google,new: g search: beds (ru) high price - mobile,google_search,
+google,new: g search: beds (ru) high price - desktop,google_search,
+google,new: g search: beds (lv) (high price) - mobile,google_search,
+google,new: g search: beds (lv) (high price) - desktop,google_search,
+google,gdn: traffic - conv: lv,google_banners,
+google,gdn: smart: items: all site,google_banners,
+google,gdn: items: (lv) (мобил),google_banners,
+google,gdn: items: (lv) (десктоп),google_banners,
+google,gdn: dyn: (ru) (мобил),google_dyn_banners,
+google,gdn: dyn: (ru) (десктоп),google_dyn_banners,
+google,gdn: dyn: (lv) (мобил),google_dyn_banners,
+google,gdn: dyn: (lv) (десктоп),google_dyn_banners,
+google,gdn: cart: abandoned (ru) (мобил + десктоп),google_cart_banners,
+google,gdn: cart: abandoned (ru) (десктоп),google_cart_banners,
+google,gdn: cart: abandoned (lv) (мобил + десктоп),google_cart_banners,
+google,g search: toppers (ru) (high price),google_search,
+google,g search: sofas (ru) (high price),google_search,
+google,g search: sofas (lv) delete,google_search,
+google,g search: protective covers (lv),google_search,
+google,g search: pillows (ru) (high price),google_search,
+google,g search: pillows (lv) (high price),google_search,
+google,g search: mattresses широкое (ru),google_search,
+google,g search: mattresses широкое (lv),google_search,
+google,g search: mattresses (ru) (high price),google_search,
+google,g search: mattresses (lv) (high price),google_search,
+google,g search: massage devices (ru),google_search,
+google,g search: massage devices (lv),google_search,
+google,g search: linen: Постельное бельё (LV) low price,google_search,
+google,g search: ergo (ru),google_search,
+google,g search: beds (ru) high price,google_search,
+google,g search: beds (lv) (medium price),google_search,
+google,g search: beds (lv) (high price),google_search,
+google,g def: brand: ru,goolge_def,
+google,g def: brand: lv,goolge_def,
+google,g def: brand (lv),goolge_def,
+google,g attack: jysk: lv,google_attack,
+google,g attack: ikea: lv,google_attack,
+google,g attack: dormeo: lv,google_attack,
+google,g attack: brand: ru,google_attack,
+google,g attack: brand: lv,google_attack,
+google,g att: lv,google_attack,
+google,attack: massage chairs (lv) - mobile,google_attack,
+google,31.10.-27.11.-smm-traf-massage-video,smm_traf,
+google,31.10.-27.11.-smm-ohvat-items-video,smm_reach,
+google,31.10.-27.11.-smm-conv-items-carousel-story,smm_conv,
+google,31.10.-27.11.-smm-conv-items-carousel,smm_conv,
+google,31.10.-27.10.-smm-traf-ergo-video,smm_traf,
+google,30.05.-03.07.-smm-traf-massage-carousel,smm_traf,
+google,30.05.-03.07.-smm-traf-items-riga-creo,smm_traf,
+google,05.09.-02.10.-smm-traf-massage-carousel,smm_traf,
+google,05.09.-02.10.-smm-traf-items-riga-creo,smm_traf,
+google,05.09.-02.10.-smm-traf-items-latgale-creo,smm_traf,
+google,05.09.-02.10.-smm-traf-ergo-creo,smm_traf,
+google,05.09.-02.10.-smm-conv-items-carousel,smm_conv,
+google,04.10.-30.10.-smm-traf-massage-carousel,smm_traf,
+google,03.10.-30.10.-smm-traf-ergo-creo,smm_traf,
+google,03.10.-30.10.-smm-conv-items-carousel,smm_conv,
+google,02.05.-29.05.-smm-traf-items-latgale-creo,smm_traf,
+google,01.08.-04.09.-smm-traf-massage-carousel,smm_traf,
+google,01.08.-04.09.-smm-conv-items-carousel,smm_conv,
+google,(not set),,
+google,78167016,,
+google,39257317,,
+google,38127354,,
+google,3449822,,
