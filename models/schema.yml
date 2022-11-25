@@ -9,3 +9,5 @@ sources:
         identifier: by_campaigns
       - name: fb_ads
         identifier: facebook_ads
+      - name: google_ads
+        identifier: by_google_ads
