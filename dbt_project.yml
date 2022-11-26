@@ -34,7 +34,7 @@ models:
       schema: base
     staging:
       materialized: table
-      schema: marts
+      schema: staging
     marts:
       materialized: table
       schema: marts
