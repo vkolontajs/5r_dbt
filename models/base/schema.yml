@@ -6,7 +6,7 @@ sources:
     schema: 5r_project
     tables:
       - name: ga_campaigns
-        identifier: by_campaigns
+        identifier: by_campaigns_b
       - name: fb_ads
         identifier: facebook_ads
       - name: google_ads
