@@ -34,9 +34,13 @@ campaings as (
 
 select
     campaign_name,
-    case when source is null then 'uknown' else source end as campaign_source,
-    case when campaing_channel is null then 'uknown' else campaing_channel end as campaing_channel,
-    case when product is null and campaing_channel is not null then 'other' when product is null and campaing_channel is null then 'uknown' else product end as campaing_product
+    case when campaign_type is null then 'uknown' else campaign_type end as campaign_type,
+    case
+        when campaign_type is not null and product is not null then product
+        when campaign_type = 'error/missing' then campaign_type
+        when campaign_type is null then 'uknown'
+        else 'other'
+    end as product
 from
     deduped_campaigns
 left join
