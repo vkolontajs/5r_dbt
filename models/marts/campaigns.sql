@@ -34,11 +34,11 @@ campaings as (
 
 select
     campaign_name,
-    case when campaign_type is null then 'uknown' else campaign_type end as campaign_type,
+    case when campaign_type is null then 'unknown' else campaign_type end as campaign_type,
     case
         when campaign_type is not null and product is not null then product
         when campaign_type = 'error/missing' then campaign_type
-        when campaign_type is null then 'uknown'
+        when campaign_type is null then 'unknown'
         else 'other'
     end as product
 from
