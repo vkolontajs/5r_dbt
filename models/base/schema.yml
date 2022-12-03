@@ -11,3 +11,13 @@ sources:
         identifier: facebook_ads
       - name: google_ads
         identifier: by_google_ads
+  - name: inputs_sheets
+    database: linen-sunbeam-368317
+    schema: excel_data
+    tables:
+      - name: manual_inputs
+        identifier: inputs_for_manual_metrics
+      - name: bi_mappings
+        identifier: mapping_sh
+      - name: ga_mappings
+        identifier: campaign_mapping

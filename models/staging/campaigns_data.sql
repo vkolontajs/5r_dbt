@@ -57,7 +57,9 @@ select
     cast(date as date) as campaign_date,
     cast(sessions as int) as sessions,
     cast(bounces as int) as bounces,
-    cast(avgsessionduration * sessions as int) as sessions_duration
+    cast(avgsessionduration * sessions as int) as sessions_duration,
+    cast(quantityaddedtocart as int) as added_to_cart,
+    cast(transactions * transactionrevenue as float64) as transactions_revenue
 from
     {{ ref('ga_campaigns_raw') }}
 
@@ -65,15 +67,15 @@ from
 
 select
     campaign_name,
-    campaign_type,
-    product,
     campaign_date,
     sessions,
     bounces,
     sessions_duration,
     clicks,
     cost,
-    impressions
+    impressions,
+    added_to_cart,
+    transactions_revenue
 from (
     select
         campaign_name,
@@ -83,7 +85,9 @@ from (
         sum(sessions_duration) as sessions_duration,
         sum(clicks) as clicks,
         sum(cost) as cost,
-        sum(impressions) as impressions
+        sum(impressions) as impressions,
+        sum(added_to_cart) as added_to_cart,
+        sum(transactions_revenue) as transactions_revenue
     from
         ads_combined
     full outer join
@@ -93,7 +97,5 @@ from (
     group by
         1, 2
 )
-left join
-    {{ ref('campaigns') }}
-using
-    (campaign_name)
+where
+    campaign_date in (select campaign_date from {{ ref('campaigns_dates') }})
