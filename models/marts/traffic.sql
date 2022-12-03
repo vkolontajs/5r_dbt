@@ -20,6 +20,17 @@ from
 group by
     1, 2
 
+union all
+
+select
+    campaign_date,
+    'online_traffic' as table_name,
+    sum(sessions) as added_to_cart
+from
+    {{ ref('campaigns_data') }}
+group by
+    1, 2
+
 )
 
 select
