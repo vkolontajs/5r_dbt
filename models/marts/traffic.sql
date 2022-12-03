@@ -7,7 +7,7 @@ select
 from
     {{ref('manual_inputs') }}
 where
-    table_name in (select table_name from {{ ref ('map') }} where table_group = 'Traffic')
+    table_name in (select table_name from {{ ref ('bi_mappings_raw') }} where table_group = 'Traffic')
 
 union all
 
@@ -23,7 +23,14 @@ group by
 )
 
 select
-    *
+    campaign_date,
+    table_sub_group,
+    table_name,
+    amount
 from
     raw
+left join
+    {{ ref ('bi_mappings_raw') }}
+using
+    (table_name)
 
