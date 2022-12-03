@@ -1,6 +1,7 @@
 select
     campaign_date,
-    campaign_type as table_sub_group,
+    case when campaign_type is null then 'Unknown' else campaign_type end as table_sub_group,
+    campaign_name,
     sessions,
     sessions_duration,
     clicks,
