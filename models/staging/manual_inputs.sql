@@ -24,13 +24,13 @@ metrics as (
 select
     cast(date_from as date) as date_from,
     cast(date_to as date) as date_to,
-    cast(offline_traffic / delta_days as int) as offline_traffic,
-    cast(fb_subscribers / delta_days as int) as fb_subscribers,
-    cast(ig_subscribers / delta_days as int) as ig_subscribers,
-    cast(total_items_sold / delta_days as int) as total_items_sold,
-    cast(plan / delta_days as int) as plan,
-    cast(cancelled_orders / delta_days as int) as cancelled_orders,
-    cast(sales_with_VAT / delta_days as int) as sales_with_VAT
+    cast(offline_traffic / delta_days as float64) as offline_traffic,
+    cast(fb_subscribers / delta_days as float64) as fb_subscribers,
+    cast(ig_subscribers / delta_days as float64) as ig_subscribers,
+    cast(total_items_sold / delta_days as float64) as total_items_sold,
+    cast(plan / delta_days as float64) as plan,
+    cast(cancelled_orders / delta_days as float64) as cancelled_orders,
+    cast(sales_with_VAT / delta_days as float64) as sales_with_VAT
 from
     inputs_added
 
