@@ -11,6 +11,8 @@ sources:
         identifier: facebook_ads
       - name: google_ads
         identifier: by_google_ads
+      - name: google_ads_raw
+        identifier: google_ads
   - name: inputs_sheets
     database: linen-sunbeam-368317
     schema: excel_data
@@ -21,3 +23,5 @@ sources:
         identifier: mapping_sh
       - name: ga_mappings
         identifier: campaign_mapping
+      - name: accounts
+        identifier: accounts
