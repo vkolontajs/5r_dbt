@@ -58,7 +58,7 @@ select
     cast(sessions as int) as sessions,
     cast(bounces as int) as bounces,
     cast(avgsessionduration * sessions as int) as sessions_duration,
-    cast(quantityaddedtocart as int) as added_to_cart,
+    cast(goal9Completions as int) as added_to_cart,
     cast(transactions * transactionrevenue as float64) as transactions_revenue
 from
     {{ ref('ga_campaigns_raw') }}
